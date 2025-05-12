@@ -2,12 +2,14 @@
 
 **RMMInject-MacOS** is a lightweight and effective macOS dylib injector tailored specifically for injecting custom `.dylib` files into **RobloxPlayer**. Designed with stealth in mind, this tool leverages `DYLD_INSERT_LIBRARIES` for clean and undetected injection, making it ideal for advanced debugging, modding, or research use.
 
+---
+
 ⚠️ **Disclaimer**: This tool is intended for educational and development purposes only. Misuse may violate Roblox's Terms of Service or local laws. Use responsibly and dont be a retard, if your gonna make exploits dont get caught ;).
 
 
 ---
 
-## 🚀 Features
+## Features
 
 * ✅ Minimal, efficient codebase
 * 🔐 Bypasses detection flags by using environment variable injection
@@ -16,7 +18,7 @@
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 RMMInject-MacOS sets the following environment variables before launching the target app:
 
@@ -27,7 +29,7 @@ Once set, it uses `execl()` to cleanly start RobloxPlayer with your dylib inject
 
 ---
 
-## 🛠️ Setup & Usage
+## Setup & Usage
 
 ### ✅ Requirements
 
